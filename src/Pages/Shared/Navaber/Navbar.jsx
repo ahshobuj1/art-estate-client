@@ -21,7 +21,7 @@ const Navbar = () => {
 
     return (
         <section>
-            <div className="navbar bg-[#00000072] text-white  fixed top-0">
+            <div className="navbar bg-[#00000072] text-white max-w-screen-xl fixed top-0">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div
