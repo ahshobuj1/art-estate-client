@@ -21,7 +21,7 @@ const Navbar = () => {
 
     return (
         <section>
-            <div className="navbar bg-[#00000072] text-white max-w-screen-xl fixed top-0">
+            <div className="navbar bg-[#00000072] text-white max-w-screen-xl fixed top-0 z-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div
@@ -49,7 +49,11 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="flex items-center">
-                        <img src={logo} alt="logo" className="w-10 md:w-16" />
+                        <img
+                            src={logo}
+                            alt="logo"
+                            className="w-10 md:w-16 bg-white rounded-full border-2 border-dashed border-black"
+                        />
                         <Link to="/" className="btn btn-ghost text-2xl">
                             ArtEstate
                         </Link>

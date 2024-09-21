@@ -1,10 +1,11 @@
 import HelmetTitle from '../../../components/HelmetTitle';
+import HeaderBanner from '../HeaderBanner/HeaderBanner';
 
 const Home = () => {
     return (
         <section>
             <HelmetTitle title="Home" />
-            home
+            <HeaderBanner />
         </section>
     );
 };
